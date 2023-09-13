@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyApp", "ConcurrencyApp\ConcurrencyApp.csproj", "{6D0F21A2-EC32-4513-9DC7-86B46471F663}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Thread", "01_Thread\01_Thread.csproj", "{6D0F21A2-EC32-4513-9DC7-86B46471F663}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Tasks", "02_Tasks\02_Tasks.csproj", "{5DEBC49A-1879-4B53-B55E-5AC03E865C4C}"
 EndProject
@@ -13,9 +13,6 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6D0F21A2-EC32-4513-9DC7-86B46471F663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +27,8 @@ Global
 		{77E966E4-558E-4DF8-B683-855457322ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E966E4-558E-4DF8-B683-855457322ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E966E4-558E-4DF8-B683-855457322ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

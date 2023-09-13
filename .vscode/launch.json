@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/ConcurrencyApp/bin/Debug/net7.0/ConcurrencyApp.dll",
+            "program": "${workspaceFolder}/01_Thread/bin/Debug/net7.0/01_Thread.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ConcurrencyApp",
+            "cwd": "${workspaceFolder}/01_Thread",
             "console": "internalConsole",
             "stopAtEntry": false
         },
