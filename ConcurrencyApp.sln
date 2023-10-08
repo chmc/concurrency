@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_CancelTask", "03_CancelT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Continue", "04_Continue\04_Continue.csproj", "{BA685C0F-2CC8-4630-8799-69AC3C5EA44E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Parallel", "05_Parallel\05_Parallel.csproj", "{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BA685C0F-2CC8-4630-8799-69AC3C5EA44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA685C0F-2CC8-4630-8799-69AC3C5EA44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA685C0F-2CC8-4630-8799-69AC3C5EA44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
