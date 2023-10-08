@@ -10,6 +10,7 @@ if (args.Length == 1)
         case "3": Code_03_CancelTask.Run(); break;
         case "4": Code_04_Continue.Run(); break;
         case "5": Code_05_Parallel.Run(); break;
+        case "6": Code_06_Cancellation_and_Exception.Run(); break;
     }
 }
 else
@@ -21,4 +22,5 @@ else
     Console.WriteLine("3 - Cancel Task");
     Console.WriteLine("4 - Continue");
     Console.WriteLine("5 - Parallel");
+    Console.WriteLine("6 - Parallel cancellation and exception");
 }

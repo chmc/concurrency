@@ -77,16 +77,3 @@ public static class Code_04_Continue
         return 42;
     }
 }
-
-public static class Code_05_Parallel
-{
-    public static void Run()
-    {
-        // Parallel.For
-        Parallel.For(0, 10, i => Console.WriteLine($"Hello from iteration {i} on thread {Thread.CurrentThread.ManagedThreadId}"));
-
-        // Parallel.ForEach
-        List<string> items = new List<string> { "apple", "banana", "cherry" };
-        Parallel.ForEach(items, item => Console.WriteLine($"Processing {item} on thread {Thread.CurrentThread.ManagedThreadId}"));
-    }
-}
