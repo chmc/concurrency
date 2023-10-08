@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Continue", "04_Continue\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Parallel", "05_Parallel\05_Parallel.csproj", "{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency", "Concurrency\Concurrency.csproj", "{01176542-95B5-4C20-8797-937C1DD7A2D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78035543-59A9-4509-AE4B-B8F3A6D8F7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01176542-95B5-4C20-8797-937C1DD7A2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01176542-95B5-4C20-8797-937C1DD7A2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01176542-95B5-4C20-8797-937C1DD7A2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01176542-95B5-4C20-8797-937C1DD7A2D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
